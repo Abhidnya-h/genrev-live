@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { onAuthStateChanged } from 'firebase/auth'
 import { collection, getDocs } from 'firebase/firestore'
-import { auth, db } from '@/lib/firebase'
+import { auth, db } from '../../lib/firebase'
 import { useRouter } from 'next/router'
 
 export default function AdminDashboard() {
